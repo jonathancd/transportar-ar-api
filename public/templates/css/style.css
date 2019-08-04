@@ -1,0 +1,78 @@
+.table-btn{
+    cursor: pointer;
+}
+
+.modal.fade .modal-dialog {
+    -webkit-transition: -webkit-transform .3s ease-out;
+    -o-transition: transform .3s ease-out, -o-transform .3s ease-out;
+    transition: -webkit-transform .3s ease-out;
+    transition: transform .3s ease-out;
+    transition: transform .3s ease-out, -webkit-transform .3s ease-out, -o-transform .3s ease-out;
+    -webkit-transform: translate(0, -25%);
+    -ms-transform: translate(0, -25%);
+    -o-transform: translate(0, -25%);
+    transform: translate(0, -25%);
+}
+.modal-content {
+    position: relative;
+    background-color: #fff;
+    -webkit-background-clip: padding-box!important;
+    background-clip: padding-box!important;
+    border: 1px solid rgba(0, 0, 0, .2)!important;
+    border-radius: .3rem!important;
+    outline: 0;
+}
+.modal-header {
+    padding: 15px;
+    border-bottom: 1px solid #e5e5e5!important;
+}
+.modal-header .close {
+    position: absolute;
+    right: 10px;
+}
+
+.modal-footer {
+    padding: 15px;
+    text-align: right;
+    border-top: 1px solid #e5e5e5!important;
+}
+
+@media (min-width: 544px){
+    .modal-dialog {
+        width: 600px;
+        margin: 30px auto;
+    }
+}
+
+@media (min-width: 576px){
+    .modal-dialog {
+      max-width: 500px;
+      margin: 30px auto;
+    }
+}
+
+
+
+select[name="datatable1_length"] {
+    padding: 9px 5px;
+    border: 1px #eee solid;
+    color: #aaa;
+}
+    .data-table {
+    margin: 0 !important;
+}
+button {
+    background: transparent ;
+    border: 0 ;
+    padding: 0 ;
+    line-height: 1 ;
+}
+table.dataTable.no-footer {
+    border-bottom-color: #dee2e6;
+    width: 100% !important;
+    margin-bottom: 25px !important;
+}
+table.dataTable tbody th, table.dataTable tbody td {
+    padding: 5px 10px;
+    font-size: 13px;
+}
